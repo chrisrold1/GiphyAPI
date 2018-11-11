@@ -1,0 +1,57 @@
+
+   body {
+background-image: url(../images/hero2.jpg)
+   }    
+   
+    
+    * {
+        box-sizing: border-box;
+    }
+    img { 
+        height: 150px;
+        width: 150px;
+    }
+    .btn {
+        /* adding spacing between each button*/
+        margin: 3px;
+        background-color:cadetblue;
+        border: none;
+        color:rgb(127, 47, 255);
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 10px;
+        margin:15px;
+        cursor: pointer;
+        font-weight: bolder;
+
+    }
+    .gifDiv{
+        /* making the images go in one line rather than block & adding spacing between the images*/
+        float: left;
+        margin: 3px;
+    }
+    .container {
+        background-color: #fff;
+        opacity: 0.8;
+        padding: 20px;
+    }
+    .jumbotron {
+        background-image:url(../images/s&d.gif);
+    }
+    .jumbotron .h1, .jumbotron h1 {
+        text-align: center;
+        color: blue;
+        font-weight:bolder;
+    }
+    
+  #gif-form{
+      color:darkblue;
+      font-size:20px
+  }
+  legend{
+      background-color: blue;
+      color:white;
+      width:100px;
+  }
