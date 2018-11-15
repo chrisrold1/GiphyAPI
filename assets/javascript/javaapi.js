@@ -41,7 +41,7 @@ $( document ).ready(function() {
     function displayGifs(){
         var superp = $(this).attr("data-name");
         console.log(superp)
-        var queryURL = "http://api.giphy.com/v1/gifs/search?q=" + superp + "&api_key=LFKAyotGeBmWtXCPGnjaEuGopItWGPxF";
+        var queryURL = "https://api.giphy.com/v1/gifs/search?q=" + superp + "&api_key=LFKAyotGeBmWtXCPGnjaEuGopItWGPxF";
         console.log(queryURL); // displays the constructed url
         
         $.ajax({
